@@ -1,4 +1,4 @@
-package com.qianfeng.entity;
+package com.makingfriends.entity.entity;
 
 import java.util.Date;
 

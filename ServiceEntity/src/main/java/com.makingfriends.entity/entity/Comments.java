@@ -1,8 +1,7 @@
-package com.qianfeng.entity;
+package com.makingfriends.entity.entity;
 
 import lombok.Data;
 import lombok.ToString;
-
 import java.util.Date;
 
 /**
