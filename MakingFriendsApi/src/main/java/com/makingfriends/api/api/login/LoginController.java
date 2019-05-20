@@ -1,6 +1,6 @@
 package com.makingfriends.api.api.login;
 
-import com.example.makingcommon.util.JsonBean;
+import com.makingfriends.makingcommon.util.JsonBean;
 import com.makingfriends.api.service.LoginService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

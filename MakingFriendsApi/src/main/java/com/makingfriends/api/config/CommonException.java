@@ -1,7 +1,7 @@
 package com.makingfriends.api.config;
 
 
-import com.example.makingcommon.util.JsonBean;
+import com.makingfriends.makingcommon.util.JsonBean;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;

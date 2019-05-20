@@ -1,6 +1,6 @@
 package com.makingfriends.api.service;
 
-import com.example.makingcommon.util.JsonBean;
+import com.makingfriends.makingcommon.util.JsonBean;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

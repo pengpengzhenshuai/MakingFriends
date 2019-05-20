@@ -1,8 +1,8 @@
 package com.makingfriends.api.api.user;
 
-import com.example.makingcommon.util.JsonBean;
+import com.makingfriends.makingcommon.util.JsonBean;
 import com.makingfriends.api.service.UserService;
-import com.makingfriends.entity.entity.User;
+import com.makingfriends.entity.User;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

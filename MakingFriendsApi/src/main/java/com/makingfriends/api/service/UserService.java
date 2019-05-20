@@ -1,7 +1,7 @@
 package com.makingfriends.api.service;
 
-import com.example.makingcommon.util.JsonBean;
-import com.makingfriends.entity.entity.User;
+import com.makingfriends.makingcommon.util.JsonBean;
+import com.makingfriends.entity.User;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
