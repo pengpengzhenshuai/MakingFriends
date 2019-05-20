@@ -19,6 +19,16 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.dayday.makingfriends</groupId>
+            <artifactId>serviceentity</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.dayday.makingfriends</groupId>
+            <artifactId>MakingCommon</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
             <version>2.1.4.RELEASE</version>
@@ -51,11 +61,7 @@
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
             <version>2.1.1.RELEASE </version>
         </dependency>
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.1.1</version>
-        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -64,6 +70,16 @@
     </dependencies>
 
     <build>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
